@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources>
+<resources>
+	<Resource id="exLibrisDB" type="DataSource">
+		JdbcDriver = org.postgresql.Driver
+		JdbcUrl = jdbc:postgresql://localhost:5432/ExLibris
+		UserName = postgres
+		Password = postgres
+		openejb.datasource.pool = true
+	</Resource>
+</resources>
